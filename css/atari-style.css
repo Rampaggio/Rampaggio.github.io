@@ -44,20 +44,20 @@ header a {
     color: #fff;
     margin-top: 30px;
 }
-
-#jumbotron p {
-    margin: 0 auto;
-    clear: both;
-    padding: 30px 50px;
-    font-size: 1.2em;
-    max-width: 300px;
-    
-}
     
 #jumbotron h2 {
     margin: 0 auto;
-    padding-right: 50px;
     font-size: 2em;
     max-width: 300px;
     font-weight: 800;
+}
+
+#jumbotron p {
+    margin: 0 auto; 
+    clear: both;
+    padding: 30px;
+    font-size: 1.2em;
+    max-width: 300px;
+    font-weight: 400; 
+    
 }
