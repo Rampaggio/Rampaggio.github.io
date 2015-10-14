@@ -130,11 +130,12 @@ aside p {
     height: 500px;
     width: 25%;
     overflow: hidden;
+    text-align: center;
 }
 
 .columns img {
     width: 220px;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 30px;
 }
 
@@ -145,8 +146,7 @@ aside p {
     font-family: "Verdana", sans-serif;
     text-align: center;
     font-size: 1.1em;
-    font-weight: 600;
-    line-height: 200%;
+    font-weight: 800;
     color: #fff;
     font-style: italic;
 }
