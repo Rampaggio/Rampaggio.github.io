@@ -40,10 +40,15 @@ header a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #cc0000;
+    color: #000;
+}
+
 #jumbotron {
     width: 100%;
     height: 230px;
-    background: linear-gradient(to bottom, rgba(10, 10, 20, 1) 0%, rgba(0, 0, 0, 0.7) 100%), url('../images/Atari2600BoxArtPoster-web.jpg') no-repeat center;
+    background: linear-gradient(to bottom, rgba(10, 10, 20, 0.8) 0%, rgba(0, 0, 0, 0.3) 100%), url('../images/Atari2600BoxArtPoster-web.jpg') no-repeat center;
     padding: 200px 0;
     text-align: center;
     color: #fff;
@@ -66,7 +71,7 @@ header a {
     font-size: 1.1em;
     max-width: 300px;
     font-weight: 200; 
-    
+    border-radius: 25px;
 }
 
 #info {
@@ -81,7 +86,7 @@ header a {
     max-width: 30%;
 }
 
-div img {
+#nerd img {
     max-height: 300px;
     margin: 0 auto;
     padding: 0 50px;
@@ -111,16 +116,52 @@ aside p {
     font-family: "Verdana", sans-serif;
     margin: 0 auto;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+#games {
+    width: 100%;
+    height: 400px;
+    background-color: #ccc;
+    margin-top: 30px;
 }
+
+.columns {
+    float: left;
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+}
+
+.columns img {
+    width: 220px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.columns p {
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 180px;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    font-size: .8em;
+    line-height: 120%;
+    color: #fff;
+}
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
     
