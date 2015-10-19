@@ -8,6 +8,8 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* This begins the styling for the header */
+
 header {
     max-width: 100%;
     height: 50px;
@@ -48,6 +50,12 @@ a:hover {
     padding: 5px 0 5px;
 }
 
+a:visited {
+    color: #999;
+}
+
+/* This begins the styling for the main imgage section */
+
 #jumbotron {
     width: 100%;
     height: 230px;
@@ -74,6 +82,7 @@ a:hover {
     max-width: 300px;
     font-weight: 200;
     margin-top: 20px;
+    margin-bottom: 50px;
     background-color: #000;
     border-radius: 25px;
 }
@@ -93,6 +102,12 @@ a:hover {
     color: #000;
     padding: 20px 30px;
 }
+
+#jumbotron a:visited {
+    color: #333;
+}
+
+/* This begins the styling for the game info */
     
 
 #info {
@@ -197,6 +212,8 @@ aside p {
     border-radius: 10px;
 }
 
+/* This begins the styling for the hardware images */
+
 #hardware {
     float: left;
     width: 100%;
@@ -233,6 +250,8 @@ aside p {
     font-family: "Audiowide", sans-serif;
     padding: 10px 50px 0;
 }
+
+/* This begins the styling for the about section */
 
 #about {
     float: left;
@@ -273,6 +292,10 @@ aside p {
     background-color: red;
     color: #000;
     padding: 20px 30px;
+}
+
+#about a:visited {
+    color: #999;
 }
 
     
