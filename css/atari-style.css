@@ -103,10 +103,6 @@ a:visited {
     padding: 20px 30px;
 }
 
-#jumbotron a:visited {
-    color: #333;
-}
-
 /* This begins the styling for the game info */
     
 
@@ -210,6 +206,15 @@ aside p {
     font-style: italic;
     background-color: #fff;
     border-radius: 10px;
+}
+
+.columns a {
+    text-decoration: none;
+    color: #000;
+}
+
+.columns a:hover {
+    color: red;
 }
 
 /* This begins the styling for the hardware images */
