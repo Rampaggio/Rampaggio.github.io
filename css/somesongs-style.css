@@ -146,7 +146,7 @@ ul.dropdown-menu {
 }
 
 .coding {
-    background: url('../img/css_code.jpg');
+    background: url('../img/css_code2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,12 +163,10 @@ ul.dropdown-menu {
 }
 
 .thestory p {
-    padding: 20px 0 5px 10px;
+    padding: 20px 0 5px 20px;
 }
 
 .icon {
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
     font-size: 8em;
 }
@@ -178,18 +176,22 @@ ul.dropdown-menu {
     background-color: #fff;
 }
 
-.thestory2 {
-    font-size: 1.8em;
-    font-family: "Droid+Serif";
-    font-weight: 400;
-    color: #fff;
-    width: 95%;
-    margin: 20px auto;
+.theplayers h4 {
+    font-family: "Righteous";
+    font-size: 2.5;
+    color: #003366;
+    padding-top: 10px;
+}
+        
+.theplayers p {
+    font-family: "Sintony", sans-serif;
+    color: #000;
+    line-height: 180%;
+    padding-top: 10px;
 }
 
-.thestory2 p {
-    padding: 20px 0 20px;
-}
+
+
     
 
 
