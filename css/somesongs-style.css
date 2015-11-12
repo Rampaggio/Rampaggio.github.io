@@ -6,7 +6,7 @@ html, body {
     background-color: transparent;
     background: transparent;
     border-bottom: 3px solid #fff;
-    font-family: "Comfortaa";
+    font-family: "Sintony";
     font-weight: 400;  
     color: #fff;
 }
@@ -34,7 +34,7 @@ ul.dropdown-menu {
 }
 
 .navbar-inverse .navbar-nav >li>a {
-    font-family: "Comfortaa";
+    font-family: "Sintony";
     font-weight: 400;
     color: #fff;
     padding-bottom: 15px;
@@ -70,7 +70,7 @@ ul.dropdown-menu {
 #jumbo h1 {
     padding: 0 0 50px;
     font-size: 5em;
-    font-family: "Comfortaa";
+    font-family: "Righteous";
     font-weight: 700;
     color: #fff;
 }
@@ -91,7 +91,8 @@ ul.dropdown-menu {
 }
 
 .titlesrt h3, .titlesrt2 h3, .titlesrt3 h3 {
-    font-family: "Comfortaa";
+    font-family: "Righteous";
+    font-size: 2.8em;
     font-weight: 400;
     color: blue;
 }
@@ -125,7 +126,7 @@ ul.dropdown-menu {
     
     #jumbo h1 {
     font-size: 4em;
-    font-family: "Comfortaa";
+    font-family: "Righteous";
     font-weight: 700;
     color: #fff;
 }
@@ -149,26 +150,31 @@ ul.dropdown-menu {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     display: table;
     width: 100%;
 }
 
 .thestory {
-    font-size: 1.2em;
-    font-family: "Droid+Serif";
-    font-weight: 400;
+    font-size: 1.8em;
+    font-family: "Sintony";
+    font-weight: 700;
     color: #fff;
-    width: 95%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .thestory p {
-    padding: 20px 0 20px;
+    padding: 20px 0 5px 10px;
+}
+
+.icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 8em;
 }
 
 .space {
-    height: 40px;
+    height: 20px;
     background-color: #fff;
 }
 
