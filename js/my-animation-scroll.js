@@ -4,17 +4,17 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 20) {
+        if(verticalScroll >= 50) {
 
             $('.titlesrt').addClass('fadeInRight');
         }
         
-        if(verticalScroll >= 500) {
+        if(verticalScroll >= 1000) {
 
             $('.titlesrt2').addClass('fadeInRight');
         }
         
-         if(verticalScroll >= 800) {
+         if(verticalScroll >= 1500) {
 
             $('.titlesrt3').addClass('fadeInRight');
         }
