@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-bottom: 3px solid #fff;
+    font-family: "Comfortaa";
+    font-weight: 400;  
+    color: #fff;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+#nav_target {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #fff;
+}
+
+/*Jumbotron section*/
+    
+    
+#jumbo {
+    background: url('../img/valley.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+#jumbo > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+    
+
+#jumbo h2 {
+    padding: 0 0 20px;
+    font-family: "Comfortaa", serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+#jumbo h1 {
+    padding: 0 0 50px;
+    font-size: 5em;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    color: #fff;
+}
+
+#jumbo button {
+    padding: 10px 20px;
+    background-color: #000;
+    font-size: 1.2em;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #fff;
+    width: 20%;
+}
+
+.titlesrt, .titlesrt2 {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.titlesrt h3, .titlesrt2 h3 {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: blue;
+}
+
+/*phone*/
+@media (max-width: 768px) {
+    #jumbo h1 {
+    font-size: 3em;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    color: #fff;
+    }
+        
+    #jumbo h2 {
+    font-size: 1.5em;
+}
+    #jumbo button {
+        font-size: 1em;
+        width: 15%;
+    }
+}
+
+/*tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+    
+     .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+    
+    #jumbo h1 {
+    font-size: 4em;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    color: #fff;
+}
+    
+}
+
+.overlay {
+  content: " ";
+  z-index: 1;
+  display: block;
+  height: inherit;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.coding {
+    background: url('../img/css_code.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.thestory {
+    font-size: 1.2em;
+    font-family: "Droid+Serif";
+    font-weight: 400;
+    color: #fff;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.thestory p {
+    padding: 20px 0 20px;
+}
+
+.space {
+    height: 40px;
+    background-color: #fff;
+}
+
+.thestory2 {
+    font-size: 1.8em;
+    font-family: "Droid+Serif";
+    font-weight: 400;
+    color: #fff;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.thestory2 p {
+    padding: 20px 0 20px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
