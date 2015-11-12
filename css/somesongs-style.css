@@ -14,8 +14,8 @@ html, body {
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
-    height: 60px;
-    border-bottom: 0px;
+    height: 50px;
+    border-bottom: 3px solid #fff;
     transition: background-color .5s ease 0s;
 }
 
@@ -29,10 +29,15 @@ ul.dropdown-menu {
     background-color: black;
 }
 
-#nav_target {
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav >li>a {
     font-family: "Comfortaa";
     font-weight: 400;
     color: #fff;
+    padding-bottom: 15px;
 }
 
 /*Jumbotron section*/
@@ -80,12 +85,12 @@ ul.dropdown-menu {
     width: 20%;
 }
 
-.titlesrt, .titlesrt2 {
+.titlesrt, .titlesrt2, .titlesrt3 {
     text-align: right;
     padding-bottom: 10px;
 }
 
-.titlesrt h3, .titlesrt2 h3 {
+.titlesrt h3, .titlesrt2 h3, .titlesrt3 h3 {
     font-family: "Comfortaa";
     font-weight: 400;
     color: blue;
