@@ -6,8 +6,8 @@ html, body {
     background-color: transparent;
     background: transparent;
     border-bottom: 3px solid #fff;
-    font-family: "Sintony";
-    font-weight: 400;  
+    font-family: "Comfortaa";
+    font-weight: 700;  
     color: #fff;
 }
 
@@ -34,7 +34,7 @@ ul.dropdown-menu {
 }
 
 .navbar-inverse .navbar-nav >li>a {
-    font-family: "Sintony";
+    font-family: "Comfortaa";
     font-weight: 400;
     color: #fff;
     padding-bottom: 15px;
@@ -83,14 +83,15 @@ ul.dropdown-menu {
     font-weight: 400;
     color: #fff;
     width: 20%;
+    border-radius: 10px;
 }
 
-.titlesrt, .titlesrt2, .titlesrt3 {
+.titlesrt, .titlesrt2, .titlesrt3, .titlesrt4 {
     text-align: right;
     padding-bottom: 10px;
 }
 
-.titlesrt h3, .titlesrt2 h3, .titlesrt3 h3 {
+.titlesrt h3, .titlesrt2 h3, .titlesrt3 h3, .titlesrt4 h3 {
     font-family: "Righteous";
     font-size: 2.8em;
     font-weight: 400;
@@ -142,7 +143,8 @@ ul.dropdown-menu {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
 }
 
 .coding {
@@ -188,6 +190,43 @@ ul.dropdown-menu {
     color: #000;
     line-height: 180%;
     padding-top: 10px;
+}
+
+.songs1 {
+    background: url('../img/isabel_woah.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+}
+
+.lyrics {
+    color: #fff;
+}
+
+.lyrics h3 {
+    font-family: "Righteous";
+    padding: 10px 0 10px;
+    font-size: 5em;
+}
+
+.songs2 {
+    background: url('../img/the_baron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+}
+
+.footy {
+    background-color: #003366;
+    height: 200px;
+}
+
+iframe {
+    padding: 10px 0 10px;
 }
 
 
