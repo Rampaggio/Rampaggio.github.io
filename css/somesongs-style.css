@@ -178,6 +178,10 @@ ul.dropdown-menu {
     background-color: #fff;
 }
 
+.theplayers img {
+    width: 88%;
+}
+
 .theplayers h4 {
     font-family: "Righteous";
     font-size: 1.8em;
@@ -187,9 +191,13 @@ ul.dropdown-menu {
         
 .theplayers p {
     font-family: "Sintony", sans-serif;
+    font-size: 1.1em;
     color: #000;
     line-height: 180%;
-    padding-top: 10px;
+    padding: 10px 0 10px;
+    max-width: 280px;
+    text-align: justify;
+    margin: 0 auto;
 }
 
 .songs1 {
