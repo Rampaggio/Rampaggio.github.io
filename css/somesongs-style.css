@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -83,17 +84,18 @@ ul.dropdown-menu {
     font-weight: 400;
     color: #fff;
     width: 20%;
-    border-radius: 10px;
+    border-style: none;
 }
 
 .titlesrt, .titlesrt2, .titlesrt3, .titlesrt4 {
     text-align: right;
     padding-bottom: 10px;
+    border-top: 10px solid #ccc;
 }
 
 .titlesrt h3, .titlesrt2 h3, .titlesrt3 h3, .titlesrt4 h3 {
     font-family: "Righteous";
-    font-size: 2.8em;
+    font-size: 2.8em; 
     font-weight: 400;
     color: #003366;
 }
@@ -102,7 +104,6 @@ ul.dropdown-menu {
 @media (max-width: 768px) {
     #jumbo h1 {
     font-size: 3em;
-    font-family: "Comfortaa";
     font-weight: 700;
     color: #fff;
     }
@@ -114,6 +115,10 @@ ul.dropdown-menu {
         font-size: 1em;
         width: 15%;
     }
+    
+    .theplayers img {
+    width: 50%;
+}
 }
 
 /*tablet*/
@@ -127,9 +132,12 @@ ul.dropdown-menu {
     
     #jumbo h1 {
     font-size: 4em;
-    font-family: "Righteous";
     font-weight: 700;
     color: #fff;
+}
+    
+    .theplayers img {
+    width: 50%;
 }
     
 }
@@ -194,10 +202,13 @@ ul.dropdown-menu {
     font-size: 1.1em;
     color: #000;
     line-height: 180%;
-    padding: 10px 0 10px;
+    padding: 10px 5px;
     max-width: 280px;
     text-align: justify;
     margin: 0 auto;
+    margin-bottom: 15px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
 }
 
 .songs1 {
@@ -228,14 +239,55 @@ ul.dropdown-menu {
     width: 100%;
 }
 
-.footy {
-    background-color: #003366;
-    height: 200px;
+.songs3 {
+    background: url('../img/isabel_skyline.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
 }
 
 iframe {
     padding: 10px 0 10px;
 }
+
+.footy {
+    background-color: #003366;
+    min-height: 300px;
+    text-align: center;
+    color: #fff;
+    font-family: "Comfortaa";
+    font-weight: 700;
+}
+
+#footywords > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.finalbuttons {
+    padding: 10px 20px;
+    background-color: #000;
+    font-size: 1.2em;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #fff;
+    border-style: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.lastwords {
+    font-family: "Sintony";
+    font-size: 1.8em;
+}
+
+.lastwords p {
+    padding: 20px 0 20px;
+}
+
 
 
 
