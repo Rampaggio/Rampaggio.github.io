@@ -142,12 +142,6 @@ ul.dropdown-menu {
     padding: 10px 0 10px;
     width: 95%
 }
-    
-    .lyrics h3 {
-    font-family: "Righteous";
-    padding: 10px 0 20px;
-    font-size: 2em;
-}
 }
 
 /*tablet*/
@@ -258,6 +252,13 @@ ul.dropdown-menu {
     padding: 10px 0 10px;
     font-size: 5em;
 }
+
+.lyrics h4 {
+    font-family: "Righteous";
+    padding: 10px 0 20px;
+    font-size: 3em;
+}
+
 
 .songs2 {
     background: url('../img/the_baron.jpg');
