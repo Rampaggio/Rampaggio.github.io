@@ -41,6 +41,13 @@ ul.dropdown-menu {
     padding-bottom: 15px;
 }
 
+.navbar-inverse .navbar-nav >li>a:hover {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #ffff33;
+    padding-bottom: 15px;
+}
+
 /*Jumbotron section*/
     
     
@@ -87,10 +94,21 @@ ul.dropdown-menu {
     border-style: none;
 }
 
+#jumbo button:hover {
+    padding: 10px 20px;
+    background-color: #ccc;
+    font-size: 1.2em;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #000;
+    width: 20%;
+    border-style: none;
+}
+
 .titlesrt, .titlesrt2, .titlesrt3, .titlesrt4 {
     text-align: right;
     padding-bottom: 10px;
-    border-top: 10px solid #ccc;
+    border-top: 5px solid #ffff33;
 }
 
 .titlesrt h3, .titlesrt2 h3, .titlesrt3 h3, .titlesrt4 h3 {
@@ -279,13 +297,37 @@ iframe {
     width: 200px;
 }
 
+.finalbuttons:hover {
+    padding: 10px 20px;
+    background-color: #ccc;
+    font-size: 1.2em;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #000;
+    border-style: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 200px;
+}
+
 .lastwords {
     font-family: "Sintony";
     font-size: 1.8em;
 }
 
+.lastwords h3 {
+    font-size: 1.1em;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    color: #ffff33;
+    padding-bottom: 40px;
+} 
+
 .lastwords p {
-    padding: 20px 0 20px;
+    font-size: .8em;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: #ccc;
 } 
 
 
