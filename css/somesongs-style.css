@@ -16,7 +16,7 @@ html, body {
     background-color: rgba(0,0,0,0.5);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 50px;
-    border-bottom: 3px solid #fff;
+    border-bottom: 5px solid #fff;
     transition: background-color .5s ease 0s;
 }
 
@@ -136,6 +136,17 @@ ul.dropdown-menu {
     
     .theplayers img {
     width: 50%;
+}
+    
+    iframe {
+    padding: 10px 0 10px;
+    width: 95%
+}
+    
+    .lyrics h3 {
+    font-family: "Righteous";
+    padding: 10px 0 20px;
+    font-size: 2em;
 }
 }
 
@@ -318,9 +329,9 @@ iframe {
 .lastwords h3 {
     font-size: 1.1em;
     font-family: "Comfortaa";
-    font-weight: 700;
+    font-weight: 400;
     color: #ffff33;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 } 
 
 .lastwords p {
