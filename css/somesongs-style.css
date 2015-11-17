@@ -105,6 +105,8 @@ ul.dropdown-menu {
     border-style: none;
 }
 
+/*Let's Style Those Titles*/
+
 .titlesrt, .titlesrt2, .titlesrt3, .titlesrt4 {
     text-align: right;
     padding-bottom: 10px;
@@ -118,6 +120,7 @@ ul.dropdown-menu {
     color: #003366;
 }
 
+/*Media Queries*/
 /*phone*/
 @media (max-width: 768px) {
     #jumbo h1 {
@@ -142,6 +145,10 @@ ul.dropdown-menu {
     padding: 10px 0 10px;
     width: 95%
 }
+    
+    li {
+        background-color: #000;
+    }
 }
 
 /*tablet*/
@@ -164,6 +171,8 @@ ul.dropdown-menu {
 }
     
 }
+
+/*STORY section*/
 
 .overlay {
   content: " ";
@@ -209,6 +218,8 @@ ul.dropdown-menu {
     background-color: #fff;
 }
 
+/*THE PLAYERS section*/
+
 .theplayers img {
     width: 88%;
 }
@@ -233,6 +244,8 @@ ul.dropdown-menu {
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
 }
+
+/*THE SONGS section*/
 
 .songs1 {
     background: url('../img/isabel_woah.jpg');
@@ -282,6 +295,8 @@ iframe {
     padding: 10px 0 10px;
 }
 
+/*Finally the Footer section*/
+
 .footy {
     background-color: #003366;
     min-height: 300px;
@@ -297,7 +312,7 @@ iframe {
 }
 
 .finalbuttons {
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #000;
     font-size: 1.2em;
     font-family: "Comfortaa";
@@ -310,7 +325,7 @@ iframe {
 }
 
 .finalbuttons:hover {
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #ccc;
     font-size: 1.2em;
     font-family: "Comfortaa";
@@ -332,7 +347,7 @@ iframe {
     font-family: "Comfortaa";
     font-weight: 400;
     color: #ffff33;
-    padding-bottom: 30px;
+    padding: 10px 0 20px;
 } 
 
 .lastwords p {
